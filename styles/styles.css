@@ -27,14 +27,15 @@ header nav ul li {
 }
 header nav ul a {
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
   color: #0C0421;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
 }
 header #home {
   max-width: 1040px;
-  width: 80%;
   margin: 0 auto;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -66,4 +67,9 @@ header #home .img-home {
 }
 header #home .img-home img {
   width: 100%;
+}
+
+#nosso-espaco {
+  margin: 0 auto;
+  width: 80%;
 }/*# sourceMappingURL=styles.css.map */
