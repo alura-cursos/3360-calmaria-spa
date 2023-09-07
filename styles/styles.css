@@ -30,4 +30,40 @@ header nav ul a {
   color: #0C0421;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
+}
+header #home {
+  max-width: 1040px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header #home .textos-home {
+  width: 464px;
+}
+header #home .textos-home h1 {
+  font-size: 42px;
+  color: #0C0421;
+  margin-bottom: 2rem;
+  font-family: "Krona One", sans-serif;
+}
+header #home .textos-home h1 span {
+  color: #4e75ff;
+}
+header #home .textos-home .btn-main {
+  width: 280px;
+  height: 66px;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 66px;
+  background: #CAD4FA;
+  font-size: 1.3rem;
+}
+header #home .img-home {
+  max-width: 474px;
+}
+header #home .img-home img {
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */

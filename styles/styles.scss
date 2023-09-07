@@ -1,5 +1,5 @@
-// Variaveis
-//cores
+//Variaveis
+//Cores
 $cor-primaria: #0C0421;
 $cor-secundaria: #4e75ff;
 $cor-terciaria: #85a0ff;
@@ -48,4 +48,49 @@ header {
             }
         }
     }
+
+    #home {
+        max-width: 1040px;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .textos-home {
+            width: 464px;
+
+            h1 {
+                font-size: 42px;
+                color: $cor-primaria;
+                margin-bottom: 2rem;
+                font-family: $ft-titulos;
+
+                span {
+                    color: $cor-secundaria;
+                }
+            }
+
+            .btn-main {
+                width: 280px;
+                height: 66px;
+                color: #fff;
+                border: none;
+                outline: none;
+                border-radius: 66px;
+                background: $cor-default;
+                font-size: 1.3rem;
+            }
+        }
+
+        .img-home {
+            max-width: 474px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+    }
+
 }
