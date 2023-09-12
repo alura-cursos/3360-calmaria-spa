@@ -67,6 +67,10 @@ header {
                 border-radius: 66px;
                 background: variaveis.$cor-default;
                 font-size: 1.3rem;
+                transition: .3s;
+                &:hover{
+                    background: variaveis.$cor-secundaria;
+                }
             }
         }
 

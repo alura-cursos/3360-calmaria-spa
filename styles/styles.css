@@ -66,6 +66,10 @@ header #home .textos-home .btn-main {
   border-radius: 66px;
   background: #CAD4FA;
   font-size: 1.3rem;
+  transition: 0.3s;
+}
+header #home .textos-home .btn-main:hover {
+  background: #4e75ff;
 }
 header #home .img-home {
   max-width: 474px;
@@ -246,4 +250,14 @@ header #home .img-home img {
 }
 #contatos .contatos-form .inputs .btn:hover {
   background: #4e75ff;
+}
+
+footer {
+  background: #E8F5C8;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #0C0421;
 }/*# sourceMappingURL=styles.css.map */
