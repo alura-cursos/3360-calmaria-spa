@@ -22,5 +22,55 @@
     }
     .contatos-form{
         max-width: 50%;
+        background: variaveis.$gradiente-primario;
+        padding: 2rem 3rem;
+        border-radius: 2rem;
+        .titulo{
+            @include mixins.ff-fs-cl(variaveis.$ft-titulos, 1.9rem, variaveis.$cor-secundaria);
+        }
+        .infos{
+            @include mixins.ff-fs-cl(variaveis.$ft-textos, 1.2rem, variaveis.$cor-primaria);
+        }
+        .inputs{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1.5rem;
+            align-self: stretch;
+            input{
+                border-radius: 25px;
+                padding: 1rem;
+                border: none;
+            }
+            .form-group{
+                width: 100%;
+
+                display: flex;
+                flex-direction: column;
+                gap: .5rem;
+                label{
+                    @extend .infos;
+                    font-weight: bold;
+                }
+                
+                textarea{
+                    @extend input;
+                }
+            }
+            .btn{
+                @extend input;
+                background: variaveis.$cor-default;
+                margin-top: 2rem;
+                color: white;
+                font-size: 1rem;
+                width: 100%;
+                transition: .3s;
+                &:hover{
+                    background: variaveis.$cor-secundaria;
+                }
+            }
+        }
+
+
     }
 }
